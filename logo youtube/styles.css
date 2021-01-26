@@ -1,0 +1,42 @@
+* { 
+    box-sizing: border-box;
+}
+
+/* border radius */
+
+:root {
+    --width: 400px;
+    --height: 250px;
+    --bg: red;
+    --br: 50px;
+}
+
+
+
+.box-2 {
+    width: var(--width);
+    height: var(--height);
+    background: var(--bg);
+    border: 1px solid;
+    /* border-radius: var(--br); */
+    border-radius: 70px / 110px;
+    padding: 0.1px;
+}
+
+.box-3 {
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+}
+
+.play {
+    width: 150px;
+    height: 150px;
+    border: 75px solid;
+    /* background: yellow; */
+    border-color: transparent;
+    border-left-color: white;
+    margin: 50px auto 50px 165px; 
+    transform: scaleY(0.65);
+}
